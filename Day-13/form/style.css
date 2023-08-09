@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: aqua;
+    padding: 25px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    text-decoration-style: none;
+    gap: 20px;
+}
+#divform{
+    width: 350px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 38%;
+    background-color: rgba(255, 255, 255, 0.719);
+}
+form{
+    background-color: rgb(253, 126, 72);
+    border-radius: 5px;
+}
+h2{
+    text-align: center;
+    padding: 10px;
+}
+#name{
+   height: 35px;
+   margin: 10px 3px;
+   text-align: center;
+}
+#input1{
+    
+    text-align: center;
+    height: 35px;
+    width: 335px;
+    margin: 10px;
+}
+#input2{
+    height: 90px;
+    width: 335px;
+    margin: 10px;
+}
+#submit{
+    margin: 15px 45px;
+    height: 35px;
+    width: 250px;
+    border-radius: 10px;
+}
+#login{
+    height: 35px;
+    width: 160px;
+    margin: 10px 5px;
+    background-color: rgb(132, 38, 239);
+    color: white;
+    border-radius: 5px;
+}
+#signin{
+    height: 35px;
+    width: 335px;
+    margin: 10px 5px;
+    background-color: rgb(132, 38, 239);
+    color: white;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: rgb(183, 133, 230);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+#logo{
+    background-color: rgb(255, 225, 185);
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+#links{
+   
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: transparent;
+    
+} 
+#box1{
+    background-color: rgb(255, 225, 185);
+    height: 80px;
+    width: 40px;
+    
+}
+#box2{
+    background-color: rgb(255, 225, 185);
+    height: 80px;
+    width: 40px;
+    
+}
+#links1{
+    background-color: transparent;
+    
+    
+}
+#handle{
+    background-color: rgb(255, 225, 185);
+    height: 30px;
+    width: 90px;
+    margin: 10px 0;
+}
+#contact{
+    background-color: rgb(255, 225, 185);
+    height: 30px;
+    width: 90px;
+    margin: 10px 0;
+}
+#f1{
+    background-color: rgb(210, 134, 52);
+}
+@media (max-width : 768px){
+        ul{
+            flex-direction: column;
+            background-color: darkcyan;
+        }
+        #divform{
+            margin: 0 auto;
+        }
+}
