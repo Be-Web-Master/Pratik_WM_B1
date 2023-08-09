@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 700px;
+    width: 1500px;
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(10 ,1fr);
+    grid-template-rows: repeat(10 ,1fr);
+    gap: 10px; 
+}
+header{
+    grid-column-start: 1;
+    grid-column-end: 11;
+    background-color: orange;
+}
+.nav{
+   grid-row: 2/span 7;
+   grid-column: 3 / span 6;
+   background-color: red;
+}
+.article{
+    grid-row: 2/span 7;
+    grid-column: 9/span 2;
+    background-color: yellow;
+}
+.ads{
+    grid-row: 2/ span 7;
+    grid-column: 1/span 2; 
+    background-color: yellow;
+}
+footer{
+    background-color: yellow;
+    grid-column: 1 /span 11;
+}
