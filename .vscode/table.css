@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table{
+    margin-left: 33%;
+    margin-top: 50px;
+}
+thead{
+    background-color: blue;
+    color: white;
+    margin: 40px;
+}
