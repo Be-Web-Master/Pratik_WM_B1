@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    justify-items: center;
+}
+button{
+    border: 1px solid blue;
+    margin-top: 200px;
+    color: blue;
+    padding: 20px 60px;
+    cursor: pointer;
+}
+h2{ 
+    display: none;
+    margin: 15px;
+    background-color: blue;
+    color: white;
+    font-weight: 200;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+button:hover + h2{
+    display: block;
+}

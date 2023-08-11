@@ -1,0 +1,71 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to bottom, rgba(0,0,0 ,0.5),rgba(0,0,0,0.8)),url(https://images.unsplash.com/photo-1569622296640-38737c1d82de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+h1{
+    padding-top: 30px;
+    font-size: 70px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    text-align: center; 
+}
+/* .textcontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+} */
+.text1{
+    margin: 20px 300px;
+    width: 1000px;
+    text-align: center; 
+    color: white;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    
+}
+.card1{
+    width: 400px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 2px 2px 3px 3px rgb(220, 204, 204);
+}
+.card2{
+    width: 400px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 2px 2px 3px 3px rgb(220, 204, 204);
+}
+h3{
+    margin: 10px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
