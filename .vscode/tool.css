@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+}
+button{
+    background-color: white;
+    padding: 20px 50px;
+    border: 2px solid blue;
+    color: blue;
+    cursor: pointer;
+}
+h4{
+    
+    display: none;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    
+}
+button:hover + h4{
+    display: block;
+}
