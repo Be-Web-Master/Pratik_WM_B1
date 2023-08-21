@@ -5,25 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 <body>
-    <div class="container">
-        <div class="card1">
-            <h1>Box 1</h1>
-            <p>this is first box</p>
-        </div>
-        <div class="card2">
-            <h1>Box2</h1>
-            <p>this is second box</p>
-        </div>
-        <div class="card3">
-            <h1>Box3</h1>
-            <p>this is third box</p>
-        </div>
-        <div class="card4">
-            <h1>Box4</h1>
-            <p>this is fourth box</p>
-        </div>
+    <form onsubmit="handleFormSumbit(event)">
+        <label for="firstName">First Name</label>
+        <input type="text" name="firstName" id="firstName" required>
+
+        <label for="lastName">Last Name</label>
+        <input type="text" name="lastName" id="lastName" required>
+
+        <label for="age">Age:</label>
+        <input onkeyup="vaildateInput('age')" type="number" name="age" id="age" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" required>
+
+        <label for="phone">Phone Number</label>
+        <input onkeyup="vaildateInput('phone')" type="tel" name="phone" id="phone" required>
+
+        <label>Gender</label>
+    <div id="container-gender">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" required>
+        <label for="female">female</label>
+        <input type="radio" name="gender" id="female" required>
     </div>
+
+        <p class="error"></p>
+        <button>submit</button>
+    </form>
+    <script src="script.js"></script>
 </body>
 </html>
