@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form id="form" onsubmit="handleForm('form')">
+    <label for="firstName">First Name</label>
+    <input onkeyup="errorHanding('firstName')" type="text" name="firstName" id="firstName" required>
+
+    <label for="lastName">Last Name</label>
+    <input onkeyup="errorHanding('lastName')" type="text" name="lastName" id="lastName" required>
+
+    <label for="age">Age:</label>
+    <input onkeyup="errorHanding('number')" type="number" name="age" id="age" required>
+
+    <label for="phone">Phone Number</label>
+    <input onkeyup="errorHanding('phone')" type="tel" name="phone" id="phone" required>
+
+    <label for="email">email</label>
+    <input type="email" name="email" id="email" required>
+
+    <label>Gender</label>
+    <div>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male">
+
+        <label for="female">female</label>
+        <input type="radio" name="gender" id="female">
+    </div>
+    <p class="error"></p>
+    <button  id="sumbit">submit</button>
+
+
+
+
+</form>
+
+    <script src="script.js"></script>
+</body>
+</html>
