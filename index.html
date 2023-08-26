@@ -4,18 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
 </head>
+<!-- <link rel="stylesheet" href="style.css"> -->
 <body>
     <div class="container">
-        <form onsubmit="handleAddTaskSubmit(event)">
-            <input onkeyup="handleSearchInput(event)" type="search" name="search" id="searchInput" placeholder="search">
-            <input type="number" name="number" id="idInput">
-            <button id="submitBtn" type="submit">Add</button>
-        </form>
-        <ul id="todoList">
-            <li>hello world</li>
-        </ul>
+        <table border="1">
+            <thead> 
+                <tr id="head"></tr>
+            </thead>
+            <tbody id="body">
+            </tbody>
+        </table>
+        <button id="btn1" onclick="addThead()">add column</button>
     </div>
+    <button id="btn2" onclick="addTbody()">add row</button>
+
     <script src="script.js"></script>
 </body>
 </html>
